@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    background: #cfd8dc;
+    font-family: sans-serif;  
+  }
+  
+  /* Header */
+  header {
+    background: #1c2b33;
+    color: white;
+    padding: 20px;
+  }
+  
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 20px;
+    background: #333;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .menu div {
+    width: 40px;
+    height: 10px;
+    background: #333;
+  }
+  
+  .hero-text {
+    text-align: center;
+  }
+  
+  .hero-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .hero-cards div {
+    width: 80px;
+    height: 80px;
+    background: #7b6cf6;
+  }
+  
+  /* Gallery Grid */
+  .grid-gallery {
+    padding: 20px;
+  }
+  
+  .gallery-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-row div {
+    width: 80px;
+    height: 80px;
+    background: #7b6cf6;
+  }
+  
+  /* Text Cards */
+  .text-cards {
+    padding: 20px;
+  }
+  
+  .card-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    width: 200px;
+    height: 100px;
+    background: #7b6cf6;
+    border-radius: 16px;
+  }
+  
+  /* Carousel */
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: pink;
+  }
+  
+  .carousel-track {
+    display: flex;
+    gap: 5px;
+    width: 32%;
+    background-color: green;
+    
+  }
+  
+  .carousel-track div {
+
+    width: 30%;
+    height: 100px;
+    background: #7b6cf6;
+    border-radius: 16px;
+  }
+
+  .carousel-track{
+    background-color: red;
+    justify-content: space-around;
+    border-radius: 16px;
+  }
+  
+  /* Profile */
+  .profile {
+   
+    justify-content: center;
+    margin: 40px 0;
+    width: 50%;
+    background-color: white;
+  }
+  
+  .avatar {
+    width: 60px;
+    height: 60px;
+    background: #7b6cf6;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    margin-left: 65%;
+    
+  }
+  
+  .bio {
+    max-width: 300px;
+    margin: auto;
+
+  }
+  
+  /* Footer */
+  footer {
+    background: #1c2b33;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .pagination div {
+    width: 15px;
+    height: 15px;
+    background: #7b6cf6;
+    border-radius: 50%;
+  }
+  

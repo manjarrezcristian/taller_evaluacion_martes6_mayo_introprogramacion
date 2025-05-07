@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    background: #cfd8dc;
+    font-family: sans-serif;
+  }
+  
+  /* Header */
+  header {
+    background: #1c2b33;
+    color: white;
+    padding: 20px;
+  }
+  
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 20px;
+    background: #333;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .menu div {
+    width: 40px;
+    height: 10px;
+    background: #333;
+  }
+  
+  .hero-text {
+    text-align: center;
+  }
+  
+  .hero-text button {
+    margin-top: 10px;
+  }
+  
+  /* Main Content with Cards */
+  .main-content {
+margin: 1%;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    width: 90%;
+    background-color: white;
+
+  }
+  
+  .left-column {
+  
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: green;
+
+  }
+  
+  .right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: red;
+  
+  }
+  
+  .big-card {
+
+    height: 100px;
+    width: 60%;
+    background: #7b6cf6;
+  }
+  
+  .side-card {
+    height: 56px;
+    width: 22%;
+    background: #7b6cf6;
+  }
+  
+  /* Media Grid Section */
+  .media-grid {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .wide {
+    flex: 2;
+    height: 100px;
+    background: #7b6cf6;
+  }
+  
+  .square {
+    flex: 1;
+    height: 100px;
+    background: #1c2b33;
+  }
+  
+  /* Team Section */
+  .team-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px 0;
+  }
+  
+  .member {
+    text-align: center;
+  }
+  
+  .avatar {
+    width: 60px;
+    height: 60px;
+    background: #7b6cf6;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .name {
+    margin-top: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #1c2b33;
+    padding: 20px;
+    color: white;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .pagination div {
+    width: 15px;
+    height: 15px;
+    background: #7b6cf6;
+    border-radius: 50%;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .footer-links div {
+    width: 40px;
+    height: 10px;
+    background: #7b6cf6;
+  }
+  
